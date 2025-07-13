@@ -1,6 +1,6 @@
-# 4AL - a.s. 2023/24
+# Percorso Web App Scuola
 
-## Percorso per lo sviluppo di Web App
+## Percorso per lo sviluppo di Web App - Node/Vue
 
 ### Parte 1: Node
 
@@ -13,15 +13,15 @@
    1. Creare il file `hello.js`
    1. Scrivere nel file `hello.js` il codice:
 
-   ```js
-   console.log("Hello");
-   ```
+      ```js
+      console.log("Hello, World!");
+      ```
 
-   7. Nel terminale eseguire il programma con:
+   1. Nel terminale eseguire il programma con:
 
-   ```bash
-   node hello.js
-   ```
+      ```bash
+      node hello.js
+      ```
 
 1. **Impostare un progetto npm**
 
