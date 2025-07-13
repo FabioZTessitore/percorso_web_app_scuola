@@ -57,47 +57,47 @@
 1. **Importare dipendenze**
 
    1. Ripetere tutti i passaggi come nell'esempio 2 (creare la directory 03_dipendenze)
-   1. Nel terminale installare la libreria `lodash` con:
+   1. Nel terminale installare la libreria `lodash-es` con:
 
-   ```bash
-   npm install lodash
-   ```
+      ```bash
+      npm install lodash-es
+      ```
 
-   3. Modificare il file index.js:
+   1. Creare il file index.js:
 
-   ```js
-   const _ = require("lodash");
+      ```js
+      const _ = require("lodash");
 
-   const v = [1, 2, 3];
-   console.log(v);
+      const v = [1, 2, 3];
+      console.log(v);
 
-   _.fill(v, "c");
-   console.log(v);
-   ```
+      _.fill(v, "c");
+      console.log(v);
+      ```
 
-   4. Nel terminale eseguire il programma con:
+   1. Nel terminale eseguire il programma con:
 
-   ```bash
-   npm run start
-   ```
+      ```bash
+      npm run start
+      ```
 
-   5. Sostituire `require` con `import` nel file `index.js`
+   1. Sostituire `require` con `import` nel file `index.js`
 
-   ```js
-   import _ from "lodash";
-   ```
+      ```js
+      import _ from "lodash-es";
+      ```
 
-   6. Abilitare l'uso di `import` aggiungendo al file `package.json`
+   1. Abilitare l'uso di `import` aggiungendo al file `package.json`
 
-   ```js
-   "type": "module",
-   ```
+      ```js
+      "type": "module",
+      ```
 
-   7. Eseguire ancora il programma con:
+   1. Eseguire ancora il programma con:
 
-   ```bash
-   npm run start
-   ```
+      ```bash
+      npm run start
+      ```
 
 1. **Le funzioni**
 

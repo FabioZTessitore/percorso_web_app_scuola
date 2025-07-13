@@ -1,4 +1,4 @@
-import _ from "lodash";
+import _ from "lodash-es";
 
 const v = [1, 2, 3];
 console.log(v);
