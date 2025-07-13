@@ -28,31 +28,31 @@
    1. Eseguire i passaggi 1, 2, 3 e 4 come in Hello (creare la directory 02_npm)
    1. Da terminale inizializzare la directory per l'utilizzo di npm:
 
-   ```bash
-   npm init -y
-   ```
+      ```bash
+      npm init -y
+      ```
 
-   3. Controllare che sia stato creato il file `package.json`
-   4. Aggiungere lo script `start` per l'avvio:
+   1. Controllare che sia stato creato il file `package.json`
+   1. Aggiungere lo script `start` per l'avvio:
 
-   ```json
-   "scripts": {
-       "start": "node index.js",
-       "test": "..."
-   }
-   ```
+      ```json
+      "scripts": {
+         "start": "node index.js",
+         "test": "..."
+      }
+      ```
 
-   5. Creare il file `index.js` con contenuto:
+   1. Creare il file `index.js` con contenuto:
 
-   ```js
-   console.log("Hello");
-   ```
+      ```js
+      console.log("Hello, World!");
+      ```
 
-   6. Nel terminale eseguire il programma con:
+   1. Nel terminale eseguire il programma con:
 
-   ```bash
-   npm run start
-   ```
+      ```bash
+      npm run start
+      ```
 
 1. **Importare dipendenze**
 
