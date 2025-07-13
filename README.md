@@ -102,50 +102,52 @@
 1. **Le funzioni**
 
    1. Ripetere tutti i passaggi come nell'esempio 2 (creare la directory 04_funzioni)
-   1. Modificare il file `index.js`. Creare una funzione di esempio
+   1. Creare il file `index.js`. Creare una funzione di esempio:
 
-   ```js
-   function somma(a, b) {
-     return a + b;
-   }
-   ```
+      ```js
+      function somma(a, b) {
+        return a + b;
+      }
+      ```
 
-   3. Invocarla e stampare il risultato dell'operazione
+   1. Invocarla e stampare il risultato dell'operazione
 
-   ```js
-   const c = somma(3, 5);
-   console.log(c);
-   ```
+      ```js
+      const c = somma(3, 5);
+      console.log(c);
+      ```
 
-   4. Eseguire il programma
+   1. Eseguire il programma
    1. Creare una seconda funzione, anonima, e assegnarla ad una variabile
 
-   ```js
-   const prodotto = function (a, b) {
-     return a * b;
-   };
-   ```
+      ```js
+      const prodotto = function (a, b) {
+        return a * b;
+      };
+      ```
 
-   6. Invocarla e stampare il risultato
+   1. Invocarla e stampare il risultato
 
-   ```js
-   const p = prodotto(3, 5);
-   console.log(p);
-   ```
+      ```js
+      const p = prodotto(3, 5);
+      console.log(p);
+      ```
 
-   7.Eseguire il programma
-   8.Creare una funzione mediante l'operatore freccia
+   1. Eseguire il programma
+   1. Creare una funzione mediante l'operatore freccia
 
-   ```js
-   const doppio = (x) => 2 * x;
-   ```
+      ```js
+      const doppio = (x) => 2 * x;
+      ```
 
-   9. Invocarla e stampare il risultato
+   1. Invocarla e stampare il risultato
 
-   ```js
-   const d = doppio(3);
-   console.log(d);
-   ```
+      ```js
+      const d = doppio(3);
+      console.log(d);
+      ```
+
+   1. Eseguire il programma
 
 1. **Callback**
    1. Creare la directory 05_callback e inizializzare npm
