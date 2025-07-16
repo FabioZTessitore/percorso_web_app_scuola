@@ -63,7 +63,7 @@
       npm install lodash-es
       ```
 
-   1. Creare il file index.js:
+   1. Creare il file `index.js`:
 
       ```js
       const _ = require("lodash");
@@ -87,7 +87,9 @@
       import _ from "lodash-es";
       ```
 
-   1. Abilitare l'uso di `import` aggiungendo al file `package.json`
+   1. Abilitare l'uso di `import` modificando il file
+      `package.json` come segue (se il campo `type` non
+      è presente basta aggiungerlo):
 
       ```js
       "type": "module",
@@ -182,3 +184,5 @@
       ```
 
    1. Eseguire il programma
+
+Continua nelle varie directory ...
