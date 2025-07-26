@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+}
+
+.landing {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing h1 {
+  font-size: 12rem;
+}
+
+.l1 {
+  background-color: rgb(6, 6, 49);
+  color: rgb(233, 233, 233);
+}
+
+.l2 {
+  background-color: rgb(49, 6, 6);
+  color: rgb(233, 233, 233);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: rgb(233, 233, 233);
+}

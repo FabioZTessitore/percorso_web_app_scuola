@@ -7,8 +7,11 @@ const port = 3000;
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  // invia il file index.html presente nella directory public
   res.sendFile(path.resolve("public", "index.html"));
+});
+
+app.get("/seconda", (req, res) => {
+  res.sendFile(path.resolve("public", "seconda.html"));
 });
 
 app.listen(port, () => {
