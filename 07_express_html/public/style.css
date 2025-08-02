@@ -9,6 +9,7 @@ html {
 }
 
 body {
+  box-sizing: content-box;
   background-color: rgb(6, 6, 49);
   color: rgb(233, 233, 233);
 }
