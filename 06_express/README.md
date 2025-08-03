@@ -84,6 +84,6 @@
     });
     ```
 
-    Riavviare l'applicazione, riprendere il browser web e andare
-    all'indirizzo locale `127.0.0.1:3000`. Stavolta sullo schermo comparirà
-    il messaggio di saluto spedito dal server.
+Riavviare l'applicazione, riprendere il browser web e andare
+all'indirizzo locale `127.0.0.1:3000`. Stavolta sullo schermo comparirà
+il messaggio di saluto spedito dal server.

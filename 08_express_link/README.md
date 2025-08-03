@@ -8,7 +8,7 @@
 
 1.  Operazioni preliminari
 
-Partire dall'applicazione `07_express_html`.
+    Partire dall'applicazione `07_express_html`.
 
 1.  Creare una seconda pagina Web
 
@@ -40,7 +40,7 @@ Partire dall'applicazione `07_express_html`.
     });
     ```
 
-    Riavviare l'applicazione, riprendere il browser web e andare
-    all'indirizzo locale `127.0.0.1:3000`. Sullo schermo comparirà
-    la pagina Web con il messaggio di saluto e si potrà navigare
-    alla seconda pagina tramite link.
+Riavviare l'applicazione, riprendere il browser web e andare
+all'indirizzo locale `127.0.0.1:3000`. Sullo schermo comparirà
+la pagina Web con il messaggio di saluto e si potrà navigare
+alla seconda pagina tramite link.

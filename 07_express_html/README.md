@@ -8,7 +8,7 @@
 
 1.  Operazioni preliminari
 
-Partire dall'applicazione `06_express`.
+    Partire dall'applicazione `06_express`.
 
 1.  Creare una pagina Web
 
@@ -59,7 +59,7 @@ Partire dall'applicazione `06_express`.
     app.use(express.static("public"));
     ```
 
-    Riavviare l'applicazione, riprendere il browser web e andare
-    all'indirizzo locale `127.0.0.1:3000`. Stavolta sullo schermo comparirà
-    la pagina Web con il messaggio di saluto correttamente
-    formattato secondo le regole del foglio di stile.
+Riavviare l'applicazione, riprendere il browser web e andare
+all'indirizzo locale `127.0.0.1:3000`. Stavolta sullo schermo comparirà
+la pagina Web con il messaggio di saluto correttamente
+formattato secondo le regole del foglio di stile.

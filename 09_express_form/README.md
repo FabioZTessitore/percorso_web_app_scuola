@@ -8,7 +8,7 @@
 
 1.  Operazioni preliminari
 
-Partire dall'applicazione `07_express_html`.
+    Partire dall'applicazione `07_express_html`.
 
 1.  Creare il form
 
