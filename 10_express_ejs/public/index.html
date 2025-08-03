@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sommatore</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header__main">Sum the numbers</div>
+        <div class="header__sub">a place where you can easily sum numbers</div>
+      </div>
+
+      <form class="form" action="/sum" method="post">
+        <div class="form__group">
+          <input
+            class="form__input"
+            type="text"
+            id="firstnumber"
+            name="firstnumber"
+            placeholder="First Number"
+          />
+          <label for="firstnumber" class="form__label">First Number</label>
+        </div>
+
+        <div class="form__group">
+          <input
+            class="form__input"
+            type="text"
+            id="secondnumber"
+            name="secondnumber"
+            placeholder="Second Number"
+          />
+          <label for="secondnumber" class="form__label">Second Number</label>
+        </div>
+
+        <button type="submit" class="btn btn--primary">Sum</button>
+      </form>
+    </div>
+  </body>
+</html>
