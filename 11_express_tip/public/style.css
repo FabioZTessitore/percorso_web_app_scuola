@@ -52,13 +52,13 @@ body {
   padding: 1rem 2rem;
   text-transform: uppercase;
   font-size: 1.6rem;
+  cursor: pointer;
 }
 
 .btn--primary {
   background-color: rgb(66, 66, 218);
   color: #fafafa;
   font-weight: 700;
-  cursor: pointer;
 }
 
 .form {
