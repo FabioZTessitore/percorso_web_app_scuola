@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header__main">Tip Calculator</div>
+        <div class="header__sub">Total is:</div>
+      </div>
+      <div class="result">
+        <div class="result__label result__label--secondary">Price</div>
+        <div class="result__value result__value--secondary"><%= price %></div>
+        <div class="result__label result__label--secondary">Tip Percentage</div>
+        <div class="result__value result__value--secondary">
+          <%= tip_perc %>
+        </div>
+        <div class="result__label result__label--secondary">Tip</div>
+        <div class="result__value result__value--secondary"><%= tip %></div>
+        <div class="result__label">Total</div>
+        <div class="result__value"><%= total %></div>
+      </div>
+      <p><a class="link" href="/">Calculate another tip</a></p>
+    </div>
+  </body>
+</html>

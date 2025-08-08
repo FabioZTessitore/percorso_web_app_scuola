@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header__main">Tip Calculator</div>
+        <div class="header__sub">Easily calculate tip</div>
+      </div>
+      <form class="form" action="/calculate" method="post">
+        <div class="form__group">
+          <input
+            class="form__input"
+            type="text"
+            id="price"
+            name="price"
+            placeholder="Price"
+          />
+          <label for="price" class="form__label">Price</label>
+        </div>
+        <div class="form__group">
+          <input
+            class="form__input"
+            type="number"
+            min="0"
+            max="30"
+            value="15"
+            step="2.5"
+            id="tip"
+            name="tip"
+            placeholder="Tip percentage"
+          />
+          <label for="tip" class="form__label">Tip Percentage</label>
+        </div>
+        <div class="form__actions">
+          <button type="submit" class="btn btn--primary">Calculate</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
