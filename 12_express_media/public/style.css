@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: content-box;
+  color: #333;
+  background-color: rgb(0, 51, 20);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: antiquewhite;
+  padding: 3rem 10rem;
+  box-shadow: black 0.5rem 0.5rem 0.5rem;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.header__main {
+  font-size: 6rem;
+  letter-spacing: 4rem;
+  padding-left: 4rem;
+  font-weight: 100;
+}
+
+.header__sub {
+  font-size: 2rem;
+}
+
+.btn {
+  border: none;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background-color: rgb(66, 66, 218);
+  color: #fafafa;
+  font-weight: 700;
+}
+
+.btn--danger {
+  background-color: rgb(218, 66, 66);
+  color: #fafafa;
+  font-weight: 700;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: start;
+  margin-bottom: 2rem;
+}
+
+.form__group {
+  margin-right: 2rem;
+}
+
+.form__actions {
+  margin-top: 1rem;
+}
+
+.form__input {
+  font-size: 2rem;
+  padding: 1.5rem 2rem;
+  border-radius: 2px;
+  border: none;
+  display: block;
+}
+
+.form__label {
+  font-size: 1.3rem;
+  font-weight: 700;
+  display: block;
+  margin-left: 2rem;
+  margin-top: 0.7rem;
+  transition: all 0.3s;
+}
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4rem);
+}
+
+.result {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.result__label {
+  font-size: 2.2rem;
+}
+
+.result__value {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.values {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 5rem;
+  justify-items: end;
+}
+
+.value {
+  font-size: 1.8rem;
+  color: #666;
+}

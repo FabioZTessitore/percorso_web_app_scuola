@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Media</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header__main">Media</div>
+        <div class="header__sub">Calcola la media dei valori inseriti</div>
+      </div>
+      <form class="form" action="/reset" method="post">
+        <div class="form_actions">
+          <button type="submit" class="btn btn--danger">Elimina valori</button>
+        </div>
+      </form>
+      <form class="form" action="/append" method="post">
+        <div class="form__group">
+          <input
+            class="form__input"
+            type="text"
+            id="value"
+            name="value"
+            placeholder="Valore"
+          />
+          <label for="value" class="form__label">Valore</label>
+        </div>
+        <div class="form__actions">
+          <button type="submit" class="btn btn--primary">
+            Aggiungi valore alla lista
+          </button>
+        </div>
+      </form>
+      <div class="result">
+        <div class="result__label">Media attuale</div>
+        <div class="result__value">
+          <% if (media.length > 0) { %> <%= media %> <% } else { %> Nessun
+          valore inserito <% } %>
+        </div>
+      </div>
+      <div class="values">
+        <% values.forEach(value => { %>
+        <div class="value"><%= value %></div>
+        <% }); %>
+      </div>
+    </div>
+  </body>
+</html>
