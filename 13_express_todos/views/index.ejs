@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ToDo App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="actions">
+        <form class="form" action="/remove-done" method="post">
+          <button class="btn btn--danger">&#x1F5D1;</button>
+        </form>
+      </div>
+      <header class="header">
+        <h1 class="header__main">ToDo App</h1>
+        <h2 class="header__sub">Keep track of your activities</h2>
+      </header>
+      <main class="main">
+        <form class="form" action="/add-task" method="post">
+          <div class="form__group">
+            <input
+              type="text"
+              class="form__input"
+              id="todotext"
+              name="todotext"
+              placeholder="What do you want to do?"
+            />
+            <label for="todo-text" class="form__label"
+              >What do you want to do?</label
+            >
+          </div>
+          <div class="form__action">
+            <button type="submit" class="btn btn--primary">&#x002B;</button>
+          </div>
+        </form>
+        <div class="todos">
+          <% todos.forEach((todo) => { %>
+          <div class="todo">
+            <form class="form" action="/toggle-done" method="post">
+              <input type="hidden" name="id" value="<%= todo.id %>" />
+              <button
+                type="submit"
+                class="todo-item <%= todo.done ? 'todo--done' : '' %>"
+              >
+                <%= todo.text %>
+              </button>
+            </form>
+          </div>
+          <% }) %>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
