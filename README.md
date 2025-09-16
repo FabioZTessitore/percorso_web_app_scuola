@@ -66,7 +66,7 @@
    1. Creare il file `index.js`:
 
       ```js
-      const _ = require("lodash");
+      const _ = require("lodash-es");
 
       const v = [1, 2, 3];
       console.log(v);
