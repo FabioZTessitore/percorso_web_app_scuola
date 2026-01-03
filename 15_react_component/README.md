@@ -100,9 +100,3 @@
       return <h1>Hello, {fullname}!</h1>;
     }
     ```
-
-1.  Esercizio
-
-    Creare un componente in cui siano presenti due pulsanti, uno con il `+` e uno con il `-`.
-    Il componente visualizzerà un numero (partendo da `0`) e quando viene premuto uno dei
-    pulsanti aggiorna il valore visualizzato.
