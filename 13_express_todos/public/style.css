@@ -110,6 +110,10 @@ body {
   font-weight: 700;
 }
 
+.btn--big {
+  font-size: 3.5rem;
+}
+
 .todos {
 }
 

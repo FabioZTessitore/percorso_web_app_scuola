@@ -5,5 +5,5 @@ CREATE TABLE todos (
     done INTEGER DEFAULT 0
 );
 
-INSERT INTO todos (text) VALUES ("Task 1");
-INSERT INTO todos (text) VALUES ("Task 2");
+INSERT INTO todos (text) VALUES ('Task 1');
+INSERT INTO todos (text) VALUES ('Task 2');
