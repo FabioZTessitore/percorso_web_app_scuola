@@ -8,11 +8,11 @@ export default function Counter() {
   const [counter, setCounter] = useState(0);
 
   function increment() {
-    setCounter(counter + 1);
+    setCounter((prev) => prev + 1);
   }
 
   function decrement() {
-    setCounter(counter - 1);
+    setCounter((prev) => prev - 1);
   }
 
   function showFlag() {

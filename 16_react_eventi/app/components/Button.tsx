@@ -1,7 +1,5 @@
 "use client";
 
-import { EventHandler, ReactEventHandler } from "react";
-
 export default function Button({ text, action }) {
   return (
     <button
