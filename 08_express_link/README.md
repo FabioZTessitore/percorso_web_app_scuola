@@ -25,6 +25,14 @@
     client la pagina `index.html`, mentre nel secondo caso
     verrà fornita la pagina `seconda.html`.
 
+    > [!IMPORTANT]  
+    > Attenzione a come vengono creati i link nelle pagine web. L'attributo `href` deve fare riferimento
+    > a `/` oppure a `/seconda`, non direttamente alle pagine html. Questo perché dobbiamo fare
+    > in modo che sia sempre il server a gestire le richieste e a inviare le pagine quando opportuno
+    > e non servire semplicemente le pagine presenti nella cartella `public`.
+    > Es. Nella home page inseriremo un link alla seconda pagina con `<a href="/seconda">`
+    > e non con `<a href="seconda.html">`
+
     Le richieste al server possono avvenire manualmente
     scrivendo l'indirizzo nel browser web oppure cliccando
     sui link presenti nelle pagine, ma non cambia il modo

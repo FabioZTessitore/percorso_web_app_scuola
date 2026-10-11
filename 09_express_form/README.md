@@ -15,6 +15,20 @@
     Creare un form all'interno della pagina `index.html`
     e aggiornare il foglio di stile secondo necessità.
 
+    Nell'esempio riportato in questa esercitazione viene creato un form che chiede
+    l'inserimento di due valori numerici di cui poi verrà effettuata la somma.
+    Si noti l'uso del metodo `POST` per effettuare la richiesta
+    e il percorso scelto `/sum`. Il server dovrà quindi gestire una richiesta `POST`
+    all'indirizzo `/sum`.
+
+    ```html
+    <form class="form" action="/sum" method="post">
+      <input type="text" name="firstnumber" />
+      <input type="text" name="secondnumber" />
+      <button type="submit">Sum</button>
+    </form>
+    ```
+
 1.  Gestire le richieste del client
 
     Quando viene premuto il pulsante presente nel form
