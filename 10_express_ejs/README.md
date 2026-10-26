@@ -25,7 +25,12 @@
     dei _segnaposti_ per poter includere informazioni
     che saranno note solo al momento dell'esecuzione
     dell'applicazione come, ad esempio, i valori da
-    sommare e il risultato della somma.
+    sommare e il risultato della somma. Ad esempio:
+
+    ```html
+    <!-- stampa il valore della variabile `result` -->
+    <p><%= result %></p>
+    ```
 
     Creiamo la directory `views`, creiamo il file
     `risultato.ejs` al suo interno e istruiamo il
